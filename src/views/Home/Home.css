@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+  font-family: 'JurassicPark';
+  font-style: normal;
+  src: url('../../utils/fonts/Jurassic Park.ttf');
+}
+
+.dinoContainer {
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*overflow: hidden;*/
+}
+
+.dinosaur {
+    position: relative;
+}
+
+.dinosaur .border {
+    width: calc(220px + 10vw);
+    height: calc(200px + 15vw);
+    border: solid 10px #ffea00;
+    position: relative;
+}
+
+.dinosaur img {
+    position: absolute;
+    bottom: 0.01vh;
+    z-index: 1;
+    /*max-width: calc(500px + 25vw);*/
+    /*width: calc(500px + 25vw);*/
+    transform: translateX(-30%);
+}
+
+.dinosaur h1 {
+    color: #ffdd00;
+    position: absolute;
+    top: 12%;
+    font-family: 'Potta One';
+    /*font-size: calc(28px + 1vw);*/
+    font-size: calc(6px + 1vw);
+    z-index: 2;
+    transform: translateX(calc(300px + 8vw));
+    opacity: 0;
+}
+
+.dinosaur-info {
+    color: #ffe500;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.dinosaur-info p {
+    font-size: calc(14px + 0.10vw);
+    margin: 0.4rem 0
+}
+
+@media screen and (max-width: 750px) {
+    .dinosaur h1 {
+        position: static;
+        transform: translateX(0);
+        text-align: center;
+        margin-top: 1.4rem;
+    }
+
+    .dinosaur-info {
+        margin-top: 0;
+    }
+
+    .dinosaur-info div {
+        text-align: center;
+    }
+}

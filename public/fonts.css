@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'JurassicPark';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/JurassicPark.otf');
+}
+
+@font-face {
+  font-family: 'Dinosaur Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Dinosaur Icons.otf');
+}
+
+
+.cwydWl, .daHkiR, .erognc, .lnSbTI, .kUQxwf, .eWtQNs, .klgRFT {
+    background-color: #202125!important;
+}
+
+.bAoAIK {
+    color: #F8CE46!important;
+}
+
+.jPTPeA { /* Connect button of the header */
+    display: none!important;
+}
+
+.hfwRS { /* theme of the menu */
+    display: none!important;
+}
+
+.eXKiLU { /* Language of the menu */
+    display: none!important;
+}
+
+/* Header */
+.kpZHbh { /* First text */
+    color: #FFFFFF!important;
+}
+.jcfBti { /* Second text */
+    color: #FFFFFF!important;
+}
+
+.bZzOdr { /* Background of circle button: off mode */
+    background-color: #FFFFFF!important;
+}
+.eLviUI { /* Background of circle button: on mode */
+    background-color: #FFFFFF!important;
+}
+.exfXzz { /* Circle button */
+    background-color: #F8CE46!important;
+}
+
+.ebVcnF { /* Background of oval button */
+    background-color: #FFFFFF!important;
+}
+.JLfFL, .JLfFL:hover:not(:disabled):not(.button--disabled):not(:active) { /* Oval part */
+    background-color: #F8CE46 !important;
+    color: #393A3A !important;
+}
+.dZOHAe { /* Non-oval part */
+    background-color: #FFFFFF!important;
+    color: #6D6D6D!important;
+}
+
+/*Divider*/
+.dqUvlb {
+    background-color: #FFFFFF!important;
+}
+
+.ikGKlx {
+    border: 2px solid #393A3A!important;
+    color: #393A3A!important;
+}
+.ikGKlx svg {
+    fill: #393A3A!important;
+}
+
+.gqVdph {
+    border: 2px solid #393A3A!important;
+    background-color: #393A3A!important;
+    color: #FFFFFF!important;
+}
+
+.jySFEh, .fHkfYv {
+    color: #FFFFFF!important;
+}
+
+.gvBKJU, .caTHEz {
+    color: #e3dc95 !important;
+}
+
+.lnVIPi {
+    color: #fffe00 !important;
+}
+
+.ccKNwo {
+    background-color: #F8CE46!important;
+    color: #393A3A!important;
+}
+.ccKNwo:disabled, .ccKNwo.button--disabled {
+    border-color: #F8CE46!important;
+    background-color: #F8CE46!important;
+    color: #393A3A!important;
+}
+
+.cHKOXh {
+    background-color: #F8CE46!important;
+    color: #393A3A!important;
+}
+.cHKOXh:active {
+    background-color: #F8CE46!important;
+}
+.cHKOXh:focus:not(:active) {
+    /*box-shadow: 0 0 0 2px #9f9f9f!important;*/
+    box-shadow: none!important;
+}
+
+.kilecp {
+    background-color: #FFFFFF!important;
+}
+
+.ksXQpt {
+    color: #FFFFFF!important;
+}
+.joBAcr svg {
+    fill : #FFFFFF!important;
+}
+
+.fvRflX {
+    color: #FFFFFF!important;
+}
+
+.tokenSymbol {
+    height: 64px;
+    width: 64px;
+}
+.tokenSymbol img {
+    filter: drop-shadow(1px 1px 2px #f8ce46);
+    -webkit-filter: drop-shadow(1px 1px 2px #f8ce46);
+}
